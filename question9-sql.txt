@@ -1,0 +1,1 @@
+update LINKS set Stats_Access_Link=LOWER(SUBSTRING(Stats_Access_Link,14,LENGTH(Stats_Access_Link)-19));
